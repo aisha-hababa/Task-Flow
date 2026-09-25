@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h3>My Tasks</h3>
+      <p id="taskCounter">0 tasks · 0 completed</p>
+
+      <div class="form">
+        <input id="title" placeholder="Title" />
+        <textarea id="description" placeholder="Description"></textarea>
+        <button class="add" onclick="add()">Add</button>
+      </div>
+
+      <div class="filters">
+        <button onclick="setFilter('all')">All</button>
+        <button onclick="setFilter('active')">Active</button>
+        <button onclick="setFilter('completed')">Completed</button>
+      </div>
+
+      <ul id="list"></ul>
+
+      <button class="clear" onclick="clearCompleted()">Clear completed</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
