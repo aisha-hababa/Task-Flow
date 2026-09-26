@@ -1,64 +1,87 @@
-📝 My Tasks
+# 📝 Task-Flow
 
 A clean and modern To-Do List web application built with HTML, CSS, and JavaScript.
-The app provides a simple and intuitive interface for creating, managing, and tracking daily tasks.
 
-✨ Features
-➕ Add tasks with a title and description
-✅ Mark tasks as completed
-🔄 Filter tasks by:
-All
-Active
-Completed
-📊 Display total tasks and completed tasks
-🗑️ Clear all completed tasks
-💾 Persistent task management
-📱 Responsive and user-friendly design
-🎨 Soft modern UI with a gradient background and glassmorphism-inspired card
-🛠️ Technologies Used
-HTML5 — Semantic structure
-CSS3 — Styling, responsive layout, gradients, shadows, and animations
-JavaScript (ES6) — Task management and application logic
-📂 Project Structure
-My-Tasks/
+Task-Flow provides a simple and intuitive interface for creating, managing, and tracking daily tasks.
+
+## ✨ Features
+
+- ➕ Add tasks with a title and description
+- ✅ Mark tasks as completed
+- 📋 View all tasks
+- 🔄 Filter tasks by:
+  - All
+  - Active
+  - Completed
+- 📊 Display the total number of tasks
+- 📈 Display the number of completed tasks
+- 🗑️ Clear completed tasks
+- 📱 Responsive and user-friendly interface
+- 🎨 Modern UI with a soft gradient background
+- ✨ Clean card-based design
+- ⚡ Interactive interface powered by JavaScript
+
+## 🛠️ Technologies Used
+
+- **HTML5** — Page structure and semantic elements
+- **CSS3** — Styling, responsive layout, gradients, shadows, and animations
+- **JavaScript (ES6)** — DOM manipulation, task management, filtering, and interactions
+
+## 📂 Project Structure
+
+```text
+Task-Flow/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-🚀 How to Run
-Clone the repository:
-git clone https://github.com/your-username/my-tasks.git
-Open the project folder.
-Open index.html in your browser.
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/aisha-hababa/Task-Flow.git
+2. Open the project
+cd Task-Flow
+3. Run the application
 
-Or use Live Server in VS Code for development.
+Open index.html directly in your browser.
+
+You can also use the Live Server extension in VS Code for a better development experience.
 
 🎯 Project Purpose
 
-This project was created as a Frontend Development practice project to strengthen skills in:
+Task-Flow was created as a frontend development project to practice building interactive web applications using vanilla JavaScript.
 
-DOM manipulation
-JavaScript event handling
-Dynamic UI updates
-Task filtering
-Form handling
-Responsive web design
-Building clean and interactive user interfaces
-📸 Preview
+The project focuses on:
 
-🔮 Future Improvements
- Edit existing tasks
- Add task priorities
- Add due dates
- Search tasks
- Dark mode
- Local Storage synchronization
- Drag & drop task organization
+- DOM manipulation
+- Event handling
+- Dynamic content rendering
+- Task filtering
+- Form handling
+- UI interactions
+- Responsive web design
+- Clean and modern user interfaces
+
+## 🔮 Future Improvements
+
+- [ ] Edit existing tasks
+- [ ] Add task priorities
+- [ ] Add due dates
+- [ ] Search and sort tasks
+- [ ] Add dark mode
+- [ ] Store tasks using Local Storage
+- [ ] Add drag-and-drop task organization
+- [ ] Add task categories
+
 👩‍💻 Author
 
 Aisha Hababa
 
+Software Engineering Graduate
+
 Frontend Development • UI/UX Design
 
-⭐ If you like this project, consider giving the repository a star!
+🔗 Repository
+
+View Task-Flow on GitHub
+```
